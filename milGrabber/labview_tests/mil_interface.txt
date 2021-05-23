@@ -1,0 +1,8 @@
+
+extern "C" __declspec(dllexport) int __stdcall initialize()
+extern "C" __declspec(dllexport) int __stdcall start(uint8_t* out_buf, int32_t out_size, int16_t grabFramesNo)
+extern "C" __declspec(dllexport) int __stdcall destroy()
+
+
+
+extern "C" __declspec(dllexport) int __stdcall show()   // tego nie uzywaj, do moich testow
